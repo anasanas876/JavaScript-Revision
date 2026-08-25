@@ -7,6 +7,7 @@ const btns = document.querySelectorAll(".btn");
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const styles = e.currentTarget.classList;
+    // Checking condition to display a color bsed on condition
     if (styles.contains("decrease")) {
       count--;
     } else if (styles.contains("increase")) {
