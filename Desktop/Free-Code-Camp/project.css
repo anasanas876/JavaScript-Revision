@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 600px;
+    padding: 40px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.selected-color {
+    margin-bottom: 30px;
+}
+
+.selected-color p {
+    margin-bottom: 5px;
+}
+
+#color-name {
+    font-size: 28px;
+}
+
+.colors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.color-btn {
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    background-color: #ddd;
+}
+
+.color-btn:hover {
+    transform: scale(1.05);
+}
+
+.color-btn.active {
+    border: 3px solid black;
+}
+
+.random-btn {
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: black;
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    margin-bottom: 25px;
+}
+
+.random-btn:hover {
+    background-color: #333;
+}
+
+.message {
+    padding: 15px;
+
+    background-color: #f1f1f1;
+
+    border-radius: 5px;
+}
