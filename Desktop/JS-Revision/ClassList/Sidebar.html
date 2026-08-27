@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Toggle Sidebar</title>
+
+    <style>
+
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <button class="Button">☰</button>
+                                      
+
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Home</p>
+        <p>Profile</p>
+        <p>Settings</p>
+    </div>
+
+
+    <script>
+
+        const button = document.querySelector(".Button");
+        const sidebar = document.querySelector(".sidebar");
+
+
+        button.addEventListener("click", function() {
+
+            sidebar.classList.toggle("hidden");
+
+        });
+
+    </script>
+
+</body>
+
+</html>
